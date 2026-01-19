@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Food & Groceries. Discover the best restaurants. Swiggy it!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="icon" type="image/png" href="./Screenshot 2026-01-19 093243.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+
+<body class="overflow-x-hidden select-none ">
+    <main class="min-h-1/2 md:h-full w-full bg-[#FF5200]">
+
+
+        <header class="flex py-6 md:py-8 justify-center">
+            <nav class="w-[80%] md:gap-8 flex justify-between items-center">
+                <a href="https://www.swiggy.com/"><img class="h-10 md:h-12 w-auto" src="./swiggy_logo_white.avif"
+                        alt="Swiggy Logo"></a>
+
+
+                <div class="flex flex-col md:flex-row gap-2 lg:gap-8 text-white font-bold items-center">
+                    <div class="hidden md:block"><a href="https://www.swiggy.com/corporate/">Swiggy Corporate</a></div>
+                    <div class="hidden md:block"><a href="https://partner.swiggy.com/login#/swiggy">Partner with us</a>
+                    </div>
+
+                    <div class="border rounded-xl cursor-pointer text-xs md:text-base px-4 py-3">
+                        <button class="flex items-center gap-2 ">
+                            Get the App
+                            <img class="-rotate-45 w-4" src="arrow.svg" alt="">
+                        </button>
+                    </div>
+
+                    <div class=" bg-black rounded-xl text-xs md:text-base px-4 py-3">
+                        <button class="px-6">Sign in</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <section class="relative">
+
+
+            <div class="absolute top-0 left-0 hidden md:block ">
+                <img class="h-[470px] w-[250px]" src="Veggies.avif" alt="">
+            </div>
+
+
+            <div class="absolute top-0 right-0 hidden md:block">
+                <img class="h-[470px] w-[250px]" src="Sushi.avif" alt="">
+            </div>
+
+
+            <div class="pt-12 md:pt-16 pb-10 flex flex-col items-center text-center relative z-10">
+
+                <h1 class="text-white font-bold 
+                    text-3xl md:text-5xl 
+                    w-[90%] md:w-3/5">
+                    Order food & groceries. Discover best restaurants. Swiggy it!
+                </h1>
+
+
+                <div class="flex flex-col md:flex-row
+                    w-3/5 
+                    gap-4 mt-8 scroll">
+
+
+                    <div class="bg-white flex items-center px-4 h-14 md:h-16 rounded-2xl w-full md:w-80">
+                        <img class="mr-3" src="location.svg" alt="">
+                        <input class=" w-full lg:w-[32rem] font-semibold outline-none" type="text"
+                            placeholder="Enter your delivery location">
+                        <img src="down_arrow.svg" alt="">
+                    </div>
+
+
+                    <div class="bg-white flex items-center justify-between 
+                        px-4 h-14 md:h-16 
+                        rounded-2xl w-full 
+                        text-gray-400 font-semibold">
+                        <span>Search for restaurant, item or more</span>
+                        <img src="search.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="w-[90%] grid grid-cols-2 md:grid-cols-3 items-center md:w-4/5 mx-auto gap-4 mt-8">
+
+                <div class="col-span-2 flex justify-center items-center  md:col-span-1 md:h-1/2 md:w-full">
+                    <a href="https://www.swiggy.com/restaurants"><img
+                            class=" h-1/2 w-1/2 md:w-full md:h-auto  rounded-2xl" src="from_restaurants.avif"
+                            alt=""></a>
+                </div>
+
+                <div class="w-full">
+                    <a href="https://www.swiggy.com/instamart?entryId=1234&entryName=mainTileEntry4&v=1"> <img
+                            class="w-full h-auto object-cover rounded-2xl" src="instant_grocery.avif" alt=""></a>
+                </div>
+                <div class="w-full">
+                    <a href="https://www.swiggy.com/dineout"> <img class="w-full h-auto object-cover rounded-2xl"
+                            src="dineout.avif" alt=""></a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <div class="pt-16 w-[95vw] md:w-3/4 mx-auto">
+        <h2 class="text-black font-bold text-xl">Order our best food options</h2>
+        <div class="flex flex-col  overflow-x-auto snap-mandatory snap-x  [&::-webkit-scrollbar]:hidden ">
+            <div class="flex gap-6 h-[209px]">
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]" src="Kachori.avif" alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]" src="Cake.avif" alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]" src="Chole Bhature.avif" alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]" src="Paratha.avif" alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]" src="Tea.avif" alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]" src="Biryani.avif" alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]" src="Samosa.avif" alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]" src="Idli.avif" alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]" src="Poori.avif" alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]" src="Pakoda.png" alt="">
+                </button>
+            </div>
+            <div class="flex gap-6 h-[209px]">
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]" src="Dosa.avif" alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]" src="Dhokla.png" alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]" src="Poha.png" alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]"
+                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pav%20Bhaji.png"
+                        alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]"
+                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Khichdi.png"
+                        alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]"
+                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Shawarma.png"
+                        alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]"
+                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Shake.png"
+                        alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]"
+                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pav%20Bhaji.png"
+                        alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]"
+                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pav%20Bhaji.png"
+                        alt="">
+                </button>
+                <button class="min-w-[144px] min-h-[180px] snap-start">
+                    <img class="h-[180px] w-[155px]"
+                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Bonda.png"
+                        alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class=" pt-16 w-[95vw] md:w-3/4 mx-auto">
+        <h2 class="text-black font-bold text-2xl">Shop groceries on Instamart</h2>
+        <div class="pt-5 gap-6 md:gap-12 flex overflow-x-auto snap-x [&::-webkit-scrollbar]:hidden">
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg" src="vegetables.avif" alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Fresh Vegetables
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg" src="fruit.png" alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Fresh Fruits
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg"
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/CIW/2025/5/14/6dea6676-ce07-45e6-b60c-a099c01c5462_6d33297a-5828-48ff-aa2a-c052ae97669e"
+                            alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Dairy, Breads and Eggs
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg" src="vegetables.avif" alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Fresh Vegetables
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg" src="fruit.png" alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Fresh Fruits
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg"
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/CIW/2025/5/14/6dea6676-ce07-45e6-b60c-a099c01c5462_6d33297a-5828-48ff-aa2a-c052ae97669e"
+                            alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Dairy, Breads and Eggs
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg" src="vegetables.avif" alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Fresh Vegetables
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg" src="fruit.png" alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Fresh Fruits
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg"
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/CIW/2025/5/14/6dea6676-ce07-45e6-b60c-a099c01c5462_6d33297a-5828-48ff-aa2a-c052ae97669e"
+                            alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Dairy, Breads and Eggs
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg" src="vegetables.avif" alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Fresh Vegetables
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg" src="fruit.png" alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Fresh Fruits
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg"
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/CIW/2025/5/14/6dea6676-ce07-45e6-b60c-a099c01c5462_6d33297a-5828-48ff-aa2a-c052ae97669e"
+                            alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Dairy, Breads and Eggs
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg" src="vegetables.avif" alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Fresh Vegetables
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg" src="fruit.png" alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Fresh Fruits
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg"
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/CIW/2025/5/14/6dea6676-ce07-45e6-b60c-a099c01c5462_6d33297a-5828-48ff-aa2a-c052ae97669e"
+                            alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Dairy, Breads and Eggs
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg" src="vegetables.avif" alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Fresh Vegetables
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg" src="fruit.png" alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Fresh Fruits
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="snap-start
+                sm:w-[22vw] md:w-[16vw] lg:w-[11vw] xl:w-[10vw] 2xl:w-[9vw]">
+                    <button class="w-full">
+                        <img class="w-full h-40 
+                       object-cover rounded-lg"
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/CIW/2025/5/14/6dea6676-ce07-45e6-b60c-a099c01c5462_6d33297a-5828-48ff-aa2a-c052ae97669e"
+                            alt="">
+                    </button>
+
+                    <div class="pt-2 sm:pt-3
+                   text-black font-bold
+                   text-sm sm:text-base lg:text-lg
+                   px-2 text-center leading-tight">
+                        Dairy, Breads and Eggs
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" pt-16 w-[95vw] md:w-3/4 mx-auto">
+        <h2 class="text-black font-bold text-2xl">Discover best restaurants on Dineout</h2>
+        <div class="pt-5 gap-6  flex overflow-x-auto  snap-x [&::-webkit-scrollbar]:hidden">
+
+            <div class="w-[85vw] md:max-w-[308px] mx-auto shrink-0 snap-start">
+                <a href="https://www.swiggy.com/restaurants/655077/dineout">
+                    <div class="relative snap-start">
+                        <img class="rounded-t-xl w-full h-auto object-cover" src="icecream.jpg" alt="icecream">
+
+                        <div class="w-2 h-2 rounded-full absolute top-2 left-1/2 -translate-x-1/2 bg-gray-400/70"></div>
+
+                        <div
+                            class="text-sm sm:text-base lg:text-lg font-bold flex items-center justify-between w-full px-2 text-white absolute bottom-2">
+                            <span class="truncate max-w-[70%]">Love At First Bite- The New Shop</span>
+
+                            <div class="gap-1 flex items-center">
+                                <img class="w-4 h-4" src="star.svg" alt="">
+                                <div>4.6</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 w-full pt-3 border border-gray pb-3 rounded-lg">
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div>Desserts</div>
+                            <div>₹300 for two</div>
+                        </div>
+
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div class="truncate max-w-[70%]">
+                                Huda Market, Sector 14, Faridabad
+                            </div>
+                            <div>4.9 km</div>
+                        </div>
+
+                        <div class="pt-2">
+                            <div
+                                class="py-1 px-2 text-gray-800 bg-gray-400/40 rounded-3xl w-fit tracking-tighter items-center text-xs sm:text-sm flex gap-2">
+                                <div class="w-4">
+                                    <img src="book.avif" alt="">
+                                </div>
+                                <div>Table booking</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-[#1BA672] text-white px-2 py-2 mt-3 rounded-md flex justify-between items-center gap-2">
+                            <div class="flex items-center gap-2">
+                                <div class="w-4">
+                                    <img src="OFFER.avif" alt="">
+                                </div>
+                                <div class="font-bold text-xs sm:text-sm tracking-tighter">
+                                    Flat 25% off on pre-booking
+                                </div>
+                            </div>
+
+                            <div class="font-bold text-xs sm:text-sm tracking-tighter whitespace-nowrap">
+                                +2 more
+                            </div>
+                        </div>
+
+                        <div
+                            class="text-[#1BA672] bg-[#C8F9E5] px-2 py-2 mt-3 rounded-md flex items-center text-xs sm:text-sm font-semibold tracking-tight">
+                            Up to 10% off with bank offers
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+            <div class="w-[85vw] md:max-w-[308px] mx-auto shrink-0 snap-start">
+                <a href="https://www.swiggy.com/restaurants/655077/dineout">
+                    <div class="relative snap-start">
+                        <img class="rounded-t-xl w-full h-auto object-cover" src="icecream.jpg" alt="icecream">
+
+                        <div class="w-2 h-2 rounded-full absolute top-2 left-1/2 -translate-x-1/2 bg-gray-400/70"></div>
+
+                        <div
+                            class="text-sm sm:text-base lg:text-lg font-bold flex items-center justify-between w-full px-2 text-white absolute bottom-2">
+                            <span class="truncate max-w-[70%]">Love At First Bite- The New Shop</span>
+
+                            <div class="gap-1 flex items-center">
+                                <img class="w-4 h-4" src="star.svg" alt="">
+                                <div>4.6</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 w-full pt-3 border border-gray pb-3 rounded-lg">
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div>Desserts</div>
+                            <div>₹300 for two</div>
+                        </div>
+
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div class="truncate max-w-[70%]">
+                                Huda Market, Sector 14, Faridabad
+                            </div>
+                            <div>4.9 km</div>
+                        </div>
+
+                        <div class="pt-2">
+                            <div
+                                class="py-1 px-2 text-gray-800 bg-gray-400/40 rounded-3xl w-fit tracking-tighter items-center text-xs sm:text-sm flex gap-2">
+                                <div class="w-4">
+                                    <img src="book.avif" alt="">
+                                </div>
+                                <div>Table booking</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-[#1BA672] text-white px-2 py-2 mt-3 rounded-md flex justify-between items-center gap-2">
+                            <div class="flex items-center gap-2">
+                                <div class="w-4">
+                                    <img src="OFFER.avif" alt="">
+                                </div>
+                                <div class="font-bold text-xs sm:text-sm tracking-tighter">
+                                    Flat 25% off on pre-booking
+                                </div>
+                            </div>
+
+                            <div class="font-bold text-xs sm:text-sm tracking-tighter whitespace-nowrap">
+                                +2 more
+                            </div>
+                        </div>
+
+                        <div
+                            class="text-[#1BA672] bg-[#C8F9E5] px-2 py-2 mt-3 rounded-md flex items-center text-xs sm:text-sm font-semibold tracking-tight">
+                            Up to 10% off with bank offers
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+            <div class="w-[85vw] md:max-w-[308px] mx-auto shrink-0 snap-start">
+                <a href="https://www.swiggy.com/restaurants/655077/dineout">
+                    <div class="relative snap-start">
+                        <img class="rounded-t-xl w-full h-auto object-cover" src="icecream.jpg" alt="icecream">
+
+                        <div class="w-2 h-2 rounded-full absolute top-2 left-1/2 -translate-x-1/2 bg-gray-400/70"></div>
+
+                        <div
+                            class="text-sm sm:text-base lg:text-lg font-bold flex items-center justify-between w-full px-2 text-white absolute bottom-2">
+                            <span class="truncate max-w-[70%]">Love At First Bite- The New Shop</span>
+
+                            <div class="gap-1 flex items-center">
+                                <img class="w-4 h-4" src="star.svg" alt="">
+                                <div>4.6</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 w-full pt-3 border border-gray pb-3 rounded-lg">
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div>Desserts</div>
+                            <div>₹300 for two</div>
+                        </div>
+
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div class="truncate max-w-[70%]">
+                                Huda Market, Sector 14, Faridabad
+                            </div>
+                            <div>4.9 km</div>
+                        </div>
+
+                        <div class="pt-2">
+                            <div
+                                class="py-1 px-2 text-gray-800 bg-gray-400/40 rounded-3xl w-fit tracking-tighter items-center text-xs sm:text-sm flex gap-2">
+                                <div class="w-4">
+                                    <img src="book.avif" alt="">
+                                </div>
+                                <div>Table booking</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-[#1BA672] text-white px-2 py-2 mt-3 rounded-md flex justify-between items-center gap-2">
+                            <div class="flex items-center gap-2">
+                                <div class="w-4">
+                                    <img src="OFFER.avif" alt="">
+                                </div>
+                                <div class="font-bold text-xs sm:text-sm tracking-tighter">
+                                    Flat 25% off on pre-booking
+                                </div>
+                            </div>
+
+                            <div class="font-bold text-xs sm:text-sm tracking-tighter whitespace-nowrap">
+                                +2 more
+                            </div>
+                        </div>
+
+                        <div
+                            class="text-[#1BA672] bg-[#C8F9E5] px-2 py-2 mt-3 rounded-md flex items-center text-xs sm:text-sm font-semibold tracking-tight">
+                            Up to 10% off with bank offers
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+            <div class="w-[85vw] md:max-w-[308px] mx-auto shrink-0 snap-start">
+                <a href="https://www.swiggy.com/restaurants/655077/dineout">
+                    <div class="relative snap-start">
+                        <img class="rounded-t-xl w-full h-auto object-cover" src="icecream.jpg" alt="icecream">
+
+                        <div class="w-2 h-2 rounded-full absolute top-2 left-1/2 -translate-x-1/2 bg-gray-400/70"></div>
+
+                        <div
+                            class="text-sm sm:text-base lg:text-lg font-bold flex items-center justify-between w-full px-2 text-white absolute bottom-2">
+                            <span class="truncate max-w-[70%]">Love At First Bite- The New Shop</span>
+
+                            <div class="gap-1 flex items-center">
+                                <img class="w-4 h-4" src="star.svg" alt="">
+                                <div>4.6</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 w-full pt-3 border border-gray pb-3 rounded-lg">
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div>Desserts</div>
+                            <div>₹300 for two</div>
+                        </div>
+
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div class="truncate max-w-[70%]">
+                                Huda Market, Sector 14, Faridabad
+                            </div>
+                            <div>4.9 km</div>
+                        </div>
+
+                        <div class="pt-2">
+                            <div
+                                class="py-1 px-2 text-gray-800 bg-gray-400/40 rounded-3xl w-fit tracking-tighter items-center text-xs sm:text-sm flex gap-2">
+                                <div class="w-4">
+                                    <img src="book.avif" alt="">
+                                </div>
+                                <div>Table booking</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-[#1BA672] text-white px-2 py-2 mt-3 rounded-md flex justify-between items-center gap-2">
+                            <div class="flex items-center gap-2">
+                                <div class="w-4">
+                                    <img src="OFFER.avif" alt="">
+                                </div>
+                                <div class="font-bold text-xs sm:text-sm tracking-tighter">
+                                    Flat 25% off on pre-booking
+                                </div>
+                            </div>
+
+                            <div class="font-bold text-xs sm:text-sm tracking-tighter whitespace-nowrap">
+                                +2 more
+                            </div>
+                        </div>
+
+                        <div
+                            class="text-[#1BA672] bg-[#C8F9E5] px-2 py-2 mt-3 rounded-md flex items-center text-xs sm:text-sm font-semibold tracking-tight">
+                            Up to 10% off with bank offers
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+            <div class="w-[85vw] md:max-w-[308px] mx-auto shrink-0 snap-start">
+                <a href="https://www.swiggy.com/restaurants/655077/dineout">
+                    <div class="relative snap-start">
+                        <img class="rounded-t-xl w-full h-auto object-cover" src="icecream.jpg" alt="icecream">
+
+                        <div class="w-2 h-2 rounded-full absolute top-2 left-1/2 -translate-x-1/2 bg-gray-400/70"></div>
+
+                        <div
+                            class="text-sm sm:text-base lg:text-lg font-bold flex items-center justify-between w-full px-2 text-white absolute bottom-2">
+                            <span class="truncate max-w-[70%]">Love At First Bite- The New Shop</span>
+
+                            <div class="gap-1 flex items-center">
+                                <img class="w-4 h-4" src="star.svg" alt="">
+                                <div>4.6</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 w-full pt-3 border border-gray pb-3 rounded-lg">
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div>Desserts</div>
+                            <div>₹300 for two</div>
+                        </div>
+
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div class="truncate max-w-[70%]">
+                                Huda Market, Sector 14, Faridabad
+                            </div>
+                            <div>4.9 km</div>
+                        </div>
+
+                        <div class="pt-2">
+                            <div
+                                class="py-1 px-2 text-gray-800 bg-gray-400/40 rounded-3xl w-fit tracking-tighter items-center text-xs sm:text-sm flex gap-2">
+                                <div class="w-4">
+                                    <img src="book.avif" alt="">
+                                </div>
+                                <div>Table booking</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-[#1BA672] text-white px-2 py-2 mt-3 rounded-md flex justify-between items-center gap-2">
+                            <div class="flex items-center gap-2">
+                                <div class="w-4">
+                                    <img src="OFFER.avif" alt="">
+                                </div>
+                                <div class="font-bold text-xs sm:text-sm tracking-tighter">
+                                    Flat 25% off on pre-booking
+                                </div>
+                            </div>
+
+                            <div class="font-bold text-xs sm:text-sm tracking-tighter whitespace-nowrap">
+                                +2 more
+                            </div>
+                        </div>
+
+                        <div
+                            class="text-[#1BA672] bg-[#C8F9E5] px-2 py-2 mt-3 rounded-md flex items-center text-xs sm:text-sm font-semibold tracking-tight">
+                            Up to 10% off with bank offers
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+            <div class="w-[85vw] md:max-w-[308px] mx-auto shrink-0 snap-start">
+                <a href="https://www.swiggy.com/restaurants/655077/dineout">
+                    <div class="relative snap-start">
+                        <img class="rounded-t-xl w-full h-auto object-cover" src="icecream.jpg" alt="icecream">
+
+                        <div class="w-2 h-2 rounded-full absolute top-2 left-1/2 -translate-x-1/2 bg-gray-400/70"></div>
+
+                        <div
+                            class="text-sm sm:text-base lg:text-lg font-bold flex items-center justify-between w-full px-2 text-white absolute bottom-2">
+                            <span class="truncate max-w-[70%]">Love At First Bite- The New Shop</span>
+
+                            <div class="gap-1 flex items-center">
+                                <img class="w-4 h-4" src="star.svg" alt="">
+                                <div>4.6</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 w-full pt-3 border border-gray pb-3 rounded-lg">
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div>Desserts</div>
+                            <div>₹300 for two</div>
+                        </div>
+
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div class="truncate max-w-[70%]">
+                                Huda Market, Sector 14, Faridabad
+                            </div>
+                            <div>4.9 km</div>
+                        </div>
+
+                        <div class="pt-2">
+                            <div
+                                class="py-1 px-2 text-gray-800 bg-gray-400/40 rounded-3xl w-fit tracking-tighter items-center text-xs sm:text-sm flex gap-2">
+                                <div class="w-4">
+                                    <img src="book.avif" alt="">
+                                </div>
+                                <div>Table booking</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-[#1BA672] text-white px-2 py-2 mt-3 rounded-md flex justify-between items-center gap-2">
+                            <div class="flex items-center gap-2">
+                                <div class="w-4">
+                                    <img src="OFFER.avif" alt="">
+                                </div>
+                                <div class="font-bold text-xs sm:text-sm tracking-tighter">
+                                    Flat 25% off on pre-booking
+                                </div>
+                            </div>
+
+                            <div class="font-bold text-xs sm:text-sm tracking-tighter whitespace-nowrap">
+                                +2 more
+                            </div>
+                        </div>
+
+                        <div
+                            class="text-[#1BA672] bg-[#C8F9E5] px-2 py-2 mt-3 rounded-md flex items-center text-xs sm:text-sm font-semibold tracking-tight">
+                            Up to 10% off with bank offers
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+            <div class="w-[85vw] md:max-w-[308px] mx-auto shrink-0 snap-start">
+                <a href="https://www.swiggy.com/restaurants/655077/dineout">
+                    <div class="relative snap-start">
+                        <img class="rounded-t-xl w-full h-auto object-cover" src="icecream.jpg" alt="icecream">
+
+                        <div class="w-2 h-2 rounded-full absolute top-2 left-1/2 -translate-x-1/2 bg-gray-400/70"></div>
+
+                        <div
+                            class="text-sm sm:text-base lg:text-lg font-bold flex items-center justify-between w-full px-2 text-white absolute bottom-2">
+                            <span class="truncate max-w-[70%]">Love At First Bite- The New Shop</span>
+
+                            <div class="gap-1 flex items-center">
+                                <img class="w-4 h-4" src="star.svg" alt="">
+                                <div>4.6</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 w-full pt-3 border border-gray pb-3 rounded-lg">
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div>Desserts</div>
+                            <div>₹300 for two</div>
+                        </div>
+
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div class="truncate max-w-[70%]">
+                                Huda Market, Sector 14, Faridabad
+                            </div>
+                            <div>4.9 km</div>
+                        </div>
+
+                        <div class="pt-2">
+                            <div
+                                class="py-1 px-2 text-gray-800 bg-gray-400/40 rounded-3xl w-fit tracking-tighter items-center text-xs sm:text-sm flex gap-2">
+                                <div class="w-4">
+                                    <img src="book.avif" alt="">
+                                </div>
+                                <div>Table booking</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-[#1BA672] text-white px-2 py-2 mt-3 rounded-md flex justify-between items-center gap-2">
+                            <div class="flex items-center gap-2">
+                                <div class="w-4">
+                                    <img src="OFFER.avif" alt="">
+                                </div>
+                                <div class="font-bold text-xs sm:text-sm tracking-tighter">
+                                    Flat 25% off on pre-booking
+                                </div>
+                            </div>
+
+                            <div class="font-bold text-xs sm:text-sm tracking-tighter whitespace-nowrap">
+                                +2 more
+                            </div>
+                        </div>
+
+                        <div
+                            class="text-[#1BA672] bg-[#C8F9E5] px-2 py-2 mt-3 rounded-md flex items-center text-xs sm:text-sm font-semibold tracking-tight">
+                            Up to 10% off with bank offers
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+            <div class="w-[85vw] md:max-w-[308px] mx-auto shrink-0 snap-start">
+                <a href="https://www.swiggy.com/restaurants/655077/dineout">
+                    <div class="relative snap-start">
+                        <img class="rounded-t-xl w-full h-auto object-cover" src="icecream.jpg" alt="icecream">
+
+                        <div class="w-2 h-2 rounded-full absolute top-2 left-1/2 -translate-x-1/2 bg-gray-400/70"></div>
+
+                        <div
+                            class="text-sm sm:text-base lg:text-lg font-bold flex items-center justify-between w-full px-2 text-white absolute bottom-2">
+                            <span class="truncate max-w-[70%]">Love At First Bite- The New Shop</span>
+
+                            <div class="gap-1 flex items-center">
+                                <img class="w-4 h-4" src="star.svg" alt="">
+                                <div>4.6</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-2 w-full pt-3 border border-gray pb-3 rounded-lg">
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div>Desserts</div>
+                            <div>₹300 for two</div>
+                        </div>
+
+                        <div class="tracking-tighter text-xs sm:text-sm flex justify-between gap-2">
+                            <div class="truncate max-w-[70%]">
+                                Huda Market, Sector 14, Faridabad
+                            </div>
+                            <div>4.9 km</div>
+                        </div>
+
+                        <div class="pt-2">
+                            <div
+                                class="py-1 px-2 text-gray-800 bg-gray-400/40 rounded-3xl w-fit tracking-tighter items-center text-xs sm:text-sm flex gap-2">
+                                <div class="w-4">
+                                    <img src="book.avif" alt="">
+                                </div>
+                                <div>Table booking</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-[#1BA672] text-white px-2 py-2 mt-3 rounded-md flex justify-between items-center gap-2">
+                            <div class="flex items-center gap-2">
+                                <div class="w-4">
+                                    <img src="OFFER.avif" alt="">
+                                </div>
+                                <div class="font-bold text-xs sm:text-sm tracking-tighter">
+                                    Flat 25% off on pre-booking
+                                </div>
+                            </div>
+
+                            <div class="font-bold text-xs sm:text-sm tracking-tighter whitespace-nowrap">
+                                +2 more
+                            </div>
+                        </div>
+
+                        <div
+                            class="text-[#1BA672] bg-[#C8F9E5] px-2 py-2 mt-3 rounded-md flex items-center text-xs sm:text-sm font-semibold tracking-tight">
+                            Up to 10% off with bank offers
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="mt-20"><img src="App_download_banner.avif" alt=""></div>
+
+    <div class="mt-14 sm:mt-16 lg:mt-20 w-[92%] sm:w-[85%] md:w-[75%] lg:w-[65%] mx-auto">
+        <div class="font-bold text-xl sm:text-2xl mb-3">
+            Cities with food delivery
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5">
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order food online in Bangalore
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order food online in Gujarat
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order food online in Hyderabad
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order food online in Mumbai
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order food online in Delhi
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order food online in Pune
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order food online in Kolkata
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order food online in Chennai
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order food online in Ahemdabad
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order food online in Chandigarh
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order food online in Gurgaon
+            </div>
+            <div
+                class="text-center font-semibold text-orange-500 flex items-center justify-center cursor-pointer p-3 border rounded-xl border-gray-400">
+                Show more
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-14 sm:mt-16 lg:mt-20 w-[92%] sm:w-[85%] md:w-[75%] lg:w-[65%] mx-auto">
+        <div class="font-bold text-xl sm:text-2xl mb-3">
+            Cities with food delivery
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5">
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order grocery delivery in Bangalore
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order grocery delivery in Gujarat
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order grocery delivery in Hyderabad
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order grocery delivery in Mumbai
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order grocery delivery in Delhi
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order grocery delivery in Pune
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order grocery delivery in Kolkata
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order grocery delivery in Chennai
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order grocery delivery in Ahemdabad
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order grocery delivery in Chandigarh
+            </div>
+            <div class="text-center font-semibold text-gray-500 cursor-pointer p-3 border rounded-xl border-gray-400">
+                Order grocery delivery in Gurgaon
+            </div>
+            <div
+                class="text-center font-semibold text-orange-500 flex items-center justify-center cursor-pointer p-3 border rounded-xl border-gray-400">
+                Show more
+            </div>
+        </div>
+    </div>
+    <footer class="bg-[#F0F0F5] pt-6 mt-12">
+        <div class="w-full md:w-[75%] mx-auto px-6 md:pr-12">
+
+
+            <div class="grid grid-cols-2 md:grid-cols-6 gap-8  text-gray-600">
+
+                <div class="col-span-2">
+                    <div class="w-36 flex items-center justify-center rounded">
+                        <img src="Group.svg" alt="">
+                    </div>
+                    <p class="mt-2 text-sm">© 2025 Swiggy Limited</p>
+                </div>
+
+
+                <div>
+                    <h3 class=" font-semibold text-gray-800 mb-3 text-lg">Company</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://www.swiggy.com/about" target="_blank">About Us</a></li>
+                        <li><a href="https://www.swiggy.com/corporate/" target="_blank">Swiggy Corporate</a></li>
+                        <li><a href="https://www.swiggy.com/careers" target="_blank">Careers</a></li>
+                        <li><a href="https://www.swiggy.com/team" target="_blank">Team</a></li>
+                        <li><a href="https://www.swiggy.com/swiggy-super" target="_blank">Swiggy One</a></li>
+                        <li><a href="https://www.swiggy.com/instamart" target="_blank">Instamart</a></li>
+                        <li><a href="https://www.swiggy.com/dineout" target="_blank">Dineout</a></li>
+                        <li><a href="https://mini.store/" target="_blank">Minis</a></li>
+                        <li><a href="https://pyng.co.in/" target="_blank">Pyng</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="px-3">
+                    <h3 class="font-semibold text-gray-800 mb-3 text-lg">Contact us</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://www.swiggy.com/support">Help & Support</a></li>
+                        <li><a href="https://partner-with-us.swiggy.com/onboard#/swiggy" target="_blank">Partner
+                                With Us</a></li>
+                        <li><a href="https://ride.swiggy.com/" target="_blank">Ride With Us</a></li>
+                    </ul>
+
+                    <h3 class="font-semibold text-gray-800 mt-12 mb-3 text-lg">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://www.swiggy.com/terms-and-conditions" target="_blank">Terms & Conditions</a>
+                        </li>
+                        <li><a href="https://www.swiggy.com/cookie-policy" target="_blank">Cookie Policy</a></li>
+                        <li><a href="https://www.swiggy.com/privacy-policy" target="_blank">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+
+                <div>
+                    <h3 class="font-semibold text-gray-800 mb-3 text-lg">Available in:</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://www.swiggy.com/city/bangalore">Bangalore</a></li>
+                        <li><a href="https://www.swiggy.com/city/gurgaon">Gurgaon</a></li>
+                        <li><a href="https://www.swiggy.com/city/hyderabad">Hyderabad</a></li>
+                        <li><a href="https://www.swiggy.com/city/delhi">Delhi</a></li>
+                        <li><a href="https://www.swiggy.com/city/mumbai">Mumbai</a></li>
+                        <li><a href="https://www.swiggy.com/city/pune">Pune</a></li>
+                    </ul>
+                    <button class="mt-4 border border-black rounded px-2 py-1 ">
+                        685 cities
+                    </button>
+                </div>
+
+
+                <div>
+                    <h3 class="font-semibold text-gray-800 mb-3 text-lg">Life at Swiggy</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://blog.swiggy.com/" target="_blank">Explore With Swiggy </a></li>
+                        <li><a href="https://blog.swiggy.com/category/swiggy-restaurant-awards/" target="_blank">Swiggy
+                                News </a></li>
+                        <li><a href="https://blog.swiggy.com/category/snackables/campaigns/" target="_blank">Snackables
+                            </a></li>
+                    </ul>
+
+                    <h3 class="font-semibold text-gray-800 mt-6 mb-3 text-lg">Social Links</h3>
+                    <div class="flex gap-3 items-center">
+                        <div class="w-6 h-6 rounded"><a href="https://www.linkedin.com/company/swiggy-in/"
+                                target="_blank"><img src="Linkedin.svg" alt=""></a></div>
+                        <div class="w-6 h-6 rounded"><a href="https://www.instagram.com/swiggyindia/?hl=en"
+                                target="_blank"><img src="icon-instagram.svg" alt=""></a></div>
+                        <div class="w-6 h-6 rounded"><a href="https://www.facebook.com/swiggy.in/" target="_blank"><img
+                                    src="icon-facebook.svg" alt=""></a></div>
+                        <div class="w-6 h-6 rounded"><a href="https://in.pinterest.com/swiggyindia/"
+                                target="_blank"><img src="icon-pinterest.svg" alt=""></a></div>
+                        <div class="w-6 h-6 rounded"><a
+                                href="https://twitter.com/Swiggy?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                                target="_blank"><img src="Twitter.svg" alt=""></a></div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div
+            class="mx-4 px-4 md:mx-16 md:px-16 pb-10 border-t border-black mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
+            <p class="text-xl md:text-2xl font-bold text-black text-center md:text-left">
+                For better experience, download the Swiggy app now
+            </p>
+
+            <div class="flex gap-4">
+                <div class="w-44  rounded flex items-center justify-center hover:scale-105 duration-200">
+                    <a href="https://itunes.apple.com/in/app/id989540920?referrer=utm_source%3Dswiggy%26utm_medium%3Dhomepage"
+                        target="_blank"><img src="icon-AppStore_lg30tv.png" alt=""></a>
+                </div>
+                <div class="w-44  rounded flex items-center justify-center hover:scale-105 duration-200">
+                    <a
+                        href="https://play.google.com/store/apps/details?id=in.swiggy.android&referrer=utm_source%3Dswiggy%26utm_medium%3Dheader">
+                        <img src="icon-GooglePlay_1_zixjxl.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
